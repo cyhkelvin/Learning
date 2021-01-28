@@ -10,6 +10,7 @@
 6. @staticmethod [ref](https://openhome.cc/Gossip/Python/StaticClassMethod.html)
 7. lambda function
 8. filter(), map(), zip(), reduce()
+9. [subprocess](https://www.itread01.com/content/1548457405.html)
 ### useful packages
 1. pytest and flake8
 2. re
