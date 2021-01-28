@@ -1,21 +1,21 @@
 # python topics
-[toc]
+
 ## python
-1. [enum package](https://blog.louie.lu/2017/08/02/%E4%BD%A0%E6%89%80%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84-python-%E6%A8%99%E6%BA%96%E5%87%BD%E5%BC%8F%E5%BA%AB%E7%94%A8%E6%B3%95-07-enum/) build up variable types
-2. six: compatible python2 and python3
-3. mpdb (python command line debugger)
-4. with open 
+1. six: compatible python2 and python3
+2. mpdb (python command line debugger)
+3. with open 
     equal to try: open(f) finally: if f: f.close()
-5. a(str_list) b(str_tuple) `c = [*a, *b]` (have all elements from a and b)
-6. set_A.difference(set_B) for (A - B)
-7. @staticmethod [ref](https://openhome.cc/Gossip/Python/StaticClassMethod.html)
-8. lambda function
-9. filter(), map(), zip(), reduce()
+4. a(str_list) b(str_tuple) `c = [*a, *b]` (have all elements from a and b)
+5. set_A.difference(set_B) for (A - B)
+6. @staticmethod [ref](https://openhome.cc/Gossip/Python/StaticClassMethod.html)
+7. lambda function
+8. filter(), map(), zip(), reduce()
 ### useful packages
 1. pytest and flake8
 2. re
 3. pytube3
-4. (有什麼想學的 python package 再加入)
+4. [enum package](https://blog.louie.lu/2017/08/02/%E4%BD%A0%E6%89%80%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84-python-%E6%A8%99%E6%BA%96%E5%87%BD%E5%BC%8F%E5%BA%AB%E7%94%A8%E6%B3%95-07-enum/) build up variable types
+5. (有什麼想學的 python package 再加入)
 ### config, yaml, json, pkl, textgrid
  - configobj configparser (讀取 .ini)
 ### matplotlib, seaborn
