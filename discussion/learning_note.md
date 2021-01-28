@@ -11,11 +11,11 @@
 # coding basic knowledge
  - 設計思維 [design pattern learning](https://ithelp.ithome.com.tw/articles/10201706) 每周看2~3篇
  - 作業系統 [operating system](https://zh.wikipedia.org/wiki/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F) 用 wiki 來解釋相關主題，不懂的用我以前課本/筆記來解釋
- - 程式語言 [programing language] 這部分算是要藉由比較不同程式語言來讓我們對所有語言都有基本認識，不會以後跟別人溝通都只會用 python 理所當然的想法去和別人討論
-    - 程式語言類型比較 (強弱型別/動靜態語言/直譯編譯) 參考我之前查的一些筆記(要用到的時候我再加到這個 repo)
+ - 程式語言 (programing language) 這部分算是要藉由比較不同程式語言來讓我們對所有語言都有基本認識，不會以後跟別人溝通都只會用 python 理所當然的想法去和別人討論
+    - 程式語言類型比較 (強弱型別/動靜態語言/直譯編譯) 參考我之前查的一些[筆記](https://docs.google.com/document/d/1uGKU0FRl6sIVRQTKd02LfRIayJljFD7ja63Rq6hzu40/edit?usp=drivesdk)
     - 虛擬碼/文字處理語言/手稿(腳本)語言/工作控制/GUI指令 [ref](https://zh.wikipedia.org/wiki/%E8%84%9A%E6%9C%AC%E8%AF%AD%E8%A8%80)
     - 軟體工程/敏捷開發/clean code [ref1](https://towardsdatascience.com/python-clean-code-6-best-practices-to-make-your-python-functions-more-readable-7ea4c6171d60) [ref2](https://www.learncodewithmike.com/2020/02/python-beautifulsoup-web-scraper.html)
- - 網路架構 (這部分我最不熟，目前還在思考怎麼辦)
+ - 網路架構 (這部分我最不熟，目前還在思考怎麼辦，應該會去找個相關的 blog 但是我無法判斷到底適不適合我們...)
 
 # interview problems and how to solve
 分享一些未來如果想要往不同類型的工程師走應該有什麼樣的技能樹，又要怎麼準備，即使以後各自學也能討論也能自學
