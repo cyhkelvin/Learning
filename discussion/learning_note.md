@@ -16,3 +16,5 @@
 
 # interview problems and how to solve
 分享一些未來如果想要往不同類型的工程師走應該有什麼樣的技能樹，又要怎麼準備，即使以後各自學也能討論也能自學
+ - vscode [vscode extension] (https://ithelp.ithome.com.tw/2020-12th-ironman/articles/3815?sc=iThomeR)
+ 
