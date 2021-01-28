@@ -6,8 +6,7 @@
     用這個內容，要找 python 常用的來學實作，其他參考就好(因為類似 linked list 等等其實在 系統上很重要但在 python 卻少用)
 
 # python topics
-目前希望用個共同編輯的 md檔(markdown) 來 maintain 想學的主題，然後一週仔細解1~2個
-(這部分目前我已經有些內容可以一次一個主題但還沒整理好)
+以 python_topics.md 來 maintain 想學的主題，然後一週仔細解1~2個
 
 # coding basic knowledge
  - 設計思維 [design pattern learning](https://ithelp.ithome.com.tw/articles/10201706)
