@@ -1,4 +1,6 @@
-# python topics
+# topics
+1 python
+2 terminal
 
 ## python
 1. six: compatible python2 and python3
@@ -57,6 +59,8 @@
      echo $value
   done
   ```
+  - for i in {1..10..2}; do echo i; done
+  - for ((i=1;i<=10;i+=1)); do echo i; done
 ### tar
 1. tar zcvf \<file_name\>.tar.gz -C \<execute_path\> \<dir_name\> 
    (tar:打包, gz:壓縮, 將\<execute_path\>/\<dir_name\> 壓縮在 file 裡，以後解壓縮直接是 \<dir_name\> 不會變成是絕對路徑)
