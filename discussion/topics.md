@@ -14,6 +14,7 @@
 8. filter(), map(), zip(), reduce()
 9. [subprocess](https://www.itread01.com/content/1548457405.html)
 10. [singleton](https://hackmd.io/P-tOlvwjSGaoVLVC6QFX3Q) ※包含 \_\_init\_\_, \_\_new\_\_ 的差別等等
+11. expanduser() 處理路徑中 '~' 字符, splitext() 分離路徑中副檔名
 ### useful packages
 1. pytest and flake8
 2. re
