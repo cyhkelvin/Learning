@@ -25,3 +25,4 @@
  - vscode [vscode extension] (https://ithelp.ithome.com.tw/2020-12th-ironman/articles/3815?sc=iThomeR)
  - 職位分工 [ref](https://blog.v123582.tw/2020/10/31/%E7%9C%9F%E3%83%BB%E8%B3%87%E6%96%99%E5%9C%98%E9%9A%8A%E8%88%87%E5%88%86%E5%B7%A5/?utm_source=Facebook_PicSee&fbclid=IwAR3Un4acXEg-X1x_PtyePP2RLHZquxckRQlrsqpMflRJxsrVknLZ-4DRInA)
  - jupyterhub、jupyterlab、jupyternotebook
+ - 小狐狸學習筆記整理 [ref](https://yhhuang1966.blogspot.com/search/label/%E2%99%A5) 
