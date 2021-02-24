@@ -16,6 +16,7 @@
 10. [singleton](https://hackmd.io/P-tOlvwjSGaoVLVC6QFX3Q) ※包含 \_\_init\_\_, \_\_new\_\_ 的差別等等
 11. expanduser() 處理路徑中 '~' 字符, splitext() 分離路徑中副檔名, path 相關指令
 12. split(), rsplit(), splitline(), strip()
+13. [import issue](https://medium.com/pyladies-taiwan/python-%E7%9A%84-import-%E9%99%B7%E9%98%B1-3538e74f57e3)
 ### useful packages
 1. pytest and flake8
 2. re
