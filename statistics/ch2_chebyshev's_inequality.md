@@ -15,5 +15,6 @@
      (3) P(x>=k) = integrate(X from k to inf, f(x))
                  = integrate(X from -inf to inf, I(x)f(x)) = E(x) <= E(x/k) = E(x)/k 得證
 # 柴比雪夫單邊
+  - P(x>=k)<= sigma^2/(sigma^2+k^2) 證略
          
          
