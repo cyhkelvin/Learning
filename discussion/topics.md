@@ -27,6 +27,7 @@
 7. (有什麼想學的 python package 再加入)
 ### config, yaml, json, pkl, textgrid
  - configobj configparser (讀取 .ini)
+### pandas, numpy
 ### matplotlib, seaborn
  - matplotlib [cmap](https://matplotlib.org/3.1.0/tutorials/colors/colormaps.html), [heatmap](https://matplotlib.org/3.1.1/gallery/images_contours_and_fields/image_annotated_heatmap.html)
  - seaborn [heapmap](http://seaborn.pydata.org/generated/seaborn.heatmap.html?highlight=s)
@@ -76,4 +77,3 @@
 ### awk, sed, gawk
 1. gsub(pattern_to_replace, patter_tobe_replace, object)
 2. -F, --field-separator
-
