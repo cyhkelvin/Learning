@@ -38,6 +38,19 @@
 3. pytube3
 4. [enum package](https://blog.louie.lu/2017/08/02/%E4%BD%A0%E6%89%80%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84-python-%E6%A8%99%E6%BA%96%E5%87%BD%E5%BC%8F%E5%BA%AB%E7%94%A8%E6%B3%95-07-enum/) build up variable types
 5. [opencc](https://github.com/BYVoid/OpenCC)
+  - mode
+    ```
+    hk2s: 繁體中文 (香港) -> 簡體中文
+    s2hk: 簡體中文 -> 繁體中文 (香港)
+    s2t: 簡體中文 -> 繁體中文
+    s2tw: 簡體中文 -> 繁體中文 (台灣)
+    s2twp: 簡體中文 -> 繁體中文 (台灣, 包含慣用詞轉換)
+    t2hk: 繁體中文 -> 繁體中文 (香港)
+    t2s: 繁體中文 -> 簡體中文
+    t2tw: 繁體中文 -> 繁體中文 (台灣)
+    tw2s: 繁體中文 (台灣) -> 簡體中文
+    tw2sp: 繁體中文 (台灣) -> 簡體中文 (包含慣用詞轉換 )
+    ```
 6. [logging](https://docs.python.org/zh-tw/3/howto/logging.html)
 7. (有什麼想學的 python package 再加入)
 ### config, yaml, json, pkl, textgrid
