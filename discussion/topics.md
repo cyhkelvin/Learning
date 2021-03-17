@@ -1,6 +1,6 @@
 # topics
-1 python
-2 terminal
+1. python
+2. terminal
 
 ## python
 1. six: compatible python2 and python3
@@ -17,7 +17,21 @@
 11. expanduser() 處理路徑中 '~' 字符, splitext() 分離路徑中副檔名, path 相關指令
 12. split(), rsplit(), splitline(), strip()
 13. [import issue](https://medium.com/pyladies-taiwan/python-%E7%9A%84-import-%E9%99%B7%E9%98%B1-3538e74f57e3)
-14. decorator [ref1-example](https://blog.techbridge.cc/2018/06/15/python-decorator-%E5%85%A5%E9%96%80%E6%95%99%E5%AD%B8/), [ref2-moreExample](https://medium.com/citycoddee/python%E9%80%B2%E9%9A%8E%E6%8A%80%E5%B7%A7-3-%E7%A5%9E%E5%A5%87%E5%8F%88%E7%BE%8E%E5%A5%BD%E7%9A%84-decorator-%E5%97%B7%E5%97%9A-6559edc87bc0)
+### decorator 
+  - [ref1-example](https://blog.techbridge.cc/2018/06/15/python-decorator-%E5%85%A5%E9%96%80%E6%95%99%E5%AD%B8/)
+  - [ref2-moreExample](https://medium.com/citycoddee/python%E9%80%B2%E9%9A%8E%E6%8A%80%E5%B7%A7-3-%E7%A5%9E%E5%A5%87%E5%8F%88%E7%BE%8E%E5%A5%BD%E7%9A%84-decorator-%E5%97%B7%E5%97%9A-6559edc87bc0)
+  - useful example of decorator:
+  ```
+  def record_execution_time(func):
+      def wrapper(*args, **kwargs):
+          global logger
+          logger.info(f'{func.__name__} for {**kwargs} start executing')
+          t1 = time.time()
+          func(*args, **kwargs)
+          t2 = time.time()
+          logger.info(f'{func.__name__} for {**kwargs} execution time:{t2-t1} secs')
+      return wrapper
+  ```
 ### useful packages
 1. pytest and flake8
 2. re
