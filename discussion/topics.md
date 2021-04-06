@@ -1,6 +1,6 @@
 # topics
-1. python
-2. terminal
+1. [python](##python)
+2. [terminal](##terminal)
 
 ## python
 1. six: compatible python2 and python3
@@ -56,6 +56,8 @@
 ### config, yaml, json, pkl, textgrid
  - configobj configparser (讀取 .ini)
 ### pandas, numpy
+ - pandas
+    - [indexing and selecting data](https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#different-choices-for-indexing)
 ### matplotlib, seaborn
  - matplotlib [cmap](https://matplotlib.org/3.1.0/tutorials/colors/colormaps.html), [heatmap](https://matplotlib.org/3.1.1/gallery/images_contours_and_fields/image_annotated_heatmap.html)
  - seaborn [heapmap](http://seaborn.pydata.org/generated/seaborn.heatmap.html?highlight=s)
