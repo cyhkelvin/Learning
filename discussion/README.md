@@ -29,3 +29,6 @@
 
 # economy
  [新人訊](https://hackmd.io/KIoKqQRFSm-rowpnb5qzBQ)
+
+# environments
+ [container-pod-cluster](https://enterprisersproject.com/article/2020/9/pod-cluster-container-what-is-difference)
