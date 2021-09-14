@@ -32,3 +32,6 @@
 
 # environments
  [container-pod-cluster](https://enterprisersproject.com/article/2020/9/pod-cluster-container-what-is-difference)
+
+# linux
+ [ps command](https://www.uj5u.com/caozuo/254249.html)
