@@ -108,3 +108,9 @@
 ### awk, sed, gawk
 1. gsub(pattern_to_replace, patter_tobe_replace, object)
 2. -F, --field-separator
+
+### skill of chmod and find
+ since it needs to be r+w for user to browse folders but read files only
+ - find <path> -type d -exec chmod 544 {} \;  
+ [reference of exec](https://unix.stackexchange.com/questions/12902/how-to-run-find-exec)
+ - find 
