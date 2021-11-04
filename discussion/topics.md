@@ -111,6 +111,6 @@
 
 ### skill of chmod and find
  since it needs to be r+w for user to browse folders but read files only
- - find <path> -type d -exec chmod 544 {} \;  
+ - find <path> -type d -exec chmod 544 {} \\;  
  [reference of exec](https://unix.stackexchange.com/questions/12902/how-to-run-find-exec)
- - find <path> -type f -exec chmod 444 {} \; 
+ - find <path> -type f -exec chmod 444 {} \\; 
