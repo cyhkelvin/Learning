@@ -1,6 +1,7 @@
 # topics
 1. [python](##python)
 2. [terminal](##terminal)
+3. [postgreSQL](##psql)
 
 ## python
 1. six: compatible python2 and python3
@@ -114,3 +115,7 @@
  - find <path> -type d -exec chmod 544 {} + \\;  
  [reference of exec](https://unix.stackexchange.com/questions/12902/how-to-run-find-exec)
  - find <path> -type f -exec chmod 444 {} + \\; 
+
+## psql
+1. psql -h <ip> -d <name> -p <port> -U <user>
+2. EXPLAIN ANALYSE
