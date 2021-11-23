@@ -35,3 +35,9 @@
 
 # linux
  [ps command](https://www.uj5u.com/caozuo/254249.html)
+
+# psql
+ dump table: `\copy table_name to 'filename.csv' csv header` 
+ [ref](https://serverfault.com/questions/393260/how-to-dump-a-part-of-a-table-from-postgresql)
+ read table: `COPY sample_table_name FROM 'C:\sampledb\sample_data.csv' DELIMITER ',' CSV HEADER;`
+ [ref](https://www.postgresqltutorial.com/import-csv-file-into-posgresql-table/)
