@@ -71,7 +71,24 @@
 ### jupyter
  - jupyterlab 切視窗: ctrl+shift+\[(切到左方分頁)或\](切到右方分頁)
  - jupyternote cell m for markdown, y for code, esc for escape
-
+### StringIO and sys
+ - [reference](https://stackoverflow.com/questions/16571150/how-to-capture-stdout-output-from-a-python-function-call)
+  ```
+  class Capturing(list):
+    def __enter__(self):
+        self._stdout = sys.stdout
+        sys.stdout = self._stringio = StringIO()
+        return self
+    def __exit__(self, *args):
+        self.extend(self._stringio.getvalue().splitlines())
+        del self._stringio    # free up some memory
+        sys.stdout = self._stdout
+  ```
+  usage:
+  ```
+  with Capturing() as output:
+    do_something(my_object)
+  ```
 
 ## terminal
 1. https://jasminmin.com/2019-05-03-ubuntu-commands/
