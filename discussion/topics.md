@@ -98,6 +98,7 @@
 5. `trap 'rm -rf "$tmpdir"' EXIT (similar try catch)`
 6. `ps -a` and `ps aux`
 7. `est -e` Exit immediately if a command exits with a non-zero status.
+8. date_var=$(date +%Y%m%d)
 ### file header(keyword for searching: shebang)
 1. `# -*- coding: utf-8 -*-`
 2. `#!/bin/bash` 
