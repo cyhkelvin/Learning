@@ -1,6 +1,9 @@
-# outline
+# career development
+ from programming to coding and then to software development
+ add on some tips for interview and other interesting topics
  - [algorithm and data structure](#algorithm-and-data-structure-程式語言)
  - [design concepts](#design-concepts-程式設計)
+ - [develop concepts](#development-concepts-程式開發)
  - [interview practice](#interview-practice面試練習)
  - [other topics](#other-topics)
 
@@ -20,6 +23,9 @@
     - 虛擬碼/文字處理語言/手稿(腳本)語言/工作控制/GUI指令 [ref](https://zh.wikipedia.org/wiki/%E8%84%9A%E6%9C%AC%E8%AF%AD%E8%A8%80)
     - 軟體工程/敏捷開發/clean code [ref1](https://towardsdatascience.com/python-clean-code-6-best-practices-to-make-your-python-functions-more-readable-7ea4c6171d60) [ref2](https://www.learncodewithmike.com/2020/02/python-beautifulsoup-web-scraper.html)
  - 網路架構 (這部分我最不熟，目前還在思考怎麼辦，應該會去找個相關的 blog 但是我無法判斷到底適不適合我們...)
+
+## development concepts (程式開發)
+ - cicd
 
 ## interview practice(面試練習)
 工程師類型與自學平台等
