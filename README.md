@@ -43,6 +43,7 @@ learning notes
  - https://github.com/espnet/espnet
  - https://github.com/monikaUPF/modularProsodyTagger
  - https://github.com/YannickJadoul/Parselmouth
+ - https://github.com/rishikksh20/SoundStorm-pytorch (https://google-research.github.io/seanet/soundstorm/examples/)
 ### small tools
  - https://github.com/gongzhang/procbridge
  - https://github.com/conwnet/github1s
