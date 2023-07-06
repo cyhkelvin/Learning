@@ -6,5 +6,8 @@
  - vscode預覽畫面: ctrl+shift+v
 ## hackmd
  - [docs](https://hackmd.io/c/tutorials-tw/%2Fs%2Fhow-to-use-template-tw)
-
-
+ - folded area
+    <details open>
+    <summary>test</summary>
+        hello folded world!
+    </details>
