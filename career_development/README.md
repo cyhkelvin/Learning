@@ -45,8 +45,10 @@
       ![image3](https://github.com/cyhkelvin/Learning/blob/main/resources/data_job_dilemma.png)
    - work division
       ![image4](https://github.com/cyhkelvin/Learning/blob/main/resources/data_word_division.png)
-
+ - 職缺薪資
+   - [levels.fyi](https://www.levels.fyi/t/software-engineer/locations/taiwan)
 ### 自學平台
+ mockinterview, hackerrank, leetcode, ...
 
 ## other topics
 
