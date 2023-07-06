@@ -9,6 +9,10 @@
 ## ssh to server
  - remotecommand -rcfile (for setting environment with given .bashrc)
 
+## open gnome terminal
+ - gnome-terminal \-\- \<command\> (\-\-working-directory=\<path\>)
+    **開新 terminal 並執行指令**
+
 ## commands
  - `unset variable`
  - `comm file1 file2 > file3` (-1 except f1, -2 except f2, -3 except both)

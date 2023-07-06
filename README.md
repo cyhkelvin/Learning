@@ -2,8 +2,6 @@
 learning notes
 
 ## references notes
- - https://hackmd.io/GKMoVxXCR02cUdhYIZEUig
- - https://hackmd.io/GR35a1VZTKChSwW4pIDViA
  - https://hackmd.io/2GiqvBEWTk6JfI3L4HrKUA
  - https://hackmd.io/LgD11HH6S32nW5-UZMonQw
 
