@@ -1,6 +1,6 @@
 # career development
  from programming to coding and then to software development
- add on some tips for interview and other interesting topics
+ add on some tips for interview and other interesting topics [ref](https://www.freecodecamp.org/news/programming-coding-developement-whats-the-difference/)
  - [algorithm and data structure](#algorithm-and-data-structure-程式語言)
  - [design concepts](#design-concepts-程式設計)
  - [develop concepts](#development-concepts-程式開發)
