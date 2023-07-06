@@ -6,6 +6,9 @@
 2. `#!/bin/bash` 
 3. `#!/usr/bin/python`
 
+## ssh to server
+ - remotecommand -rcfile (for setting environment with given .bashrc)
+
 ## commands
  - `unset variable`
  - `comm file1 file2 > file3` (-1 except f1, -2 except f2, -3 except both)

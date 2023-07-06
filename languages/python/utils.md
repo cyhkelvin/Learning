@@ -59,7 +59,7 @@
  - six: compatible python2 and python3
  - mpdb (python command line debugger)
  - re
- - pytube3
+ - pytube3: download youtube video
 
 ### pytest and linters
  - linter: flake8
@@ -75,3 +75,10 @@
 ### matplotlib, seaborn
  - matplotlib [cmap](https://matplotlib.org/3.1.0/tutorials/colors/colormaps.html), [heatmap](https://matplotlib.org/3.1.1/gallery/images_contours_and_fields/image_annotated_heatmap.html)
  - seaborn [heapmap](http://seaborn.pydata.org/generated/seaborn.heatmap.html?highlight=s)
+### kaldi-io
+ - io operation of kaldi (feature, ark, ...)
+
+
+## githubs
+### [kaldi-onnx](https://github.com/XiaoMi/kaldi-onnx)
+  - convert model from kaldi to onnx (converter/convert.py)
