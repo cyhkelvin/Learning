@@ -25,7 +25,6 @@ learning notes
  - https://github.com/jchanvfx/NodeGraphQt
  - https://github.com/google/mediapipe
 ### ML or NN
- - https://github.com/bmild/nerf
  - https://github.com/openai/CLIP
  - https://github.com/heartexlabs/labelImg
  - https://github.com/Ryoyo-NV/People-Flow-Analysis-System

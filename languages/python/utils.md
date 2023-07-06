@@ -34,9 +34,6 @@
     do_something(my_object)
   ```
 
-
-
-
 ## packages
 ### basics
  - argparse [action types](https://docs.python.org/3/library/argparse.html#action)
@@ -82,3 +79,10 @@
 ## githubs
 ### [kaldi-onnx](https://github.com/XiaoMi/kaldi-onnx)
   - convert model from kaldi to onnx (converter/convert.py)
+
+
+## articales
+### clean code example
+ - https://towardsdatascience.com/python-clean-code-6-best-practices-to-make-your-python-functions-more-readable-7ea4c6171d60
+### how to write a crawing programming
+ - https://www.learncodewithmike.com/2020/02/python-beautifulsoup-web-scraper.html

@@ -23,6 +23,7 @@
  - date_var=$(date +%Y%m%d)
  - [ps command](https://www.uj5u.com/caozuo/254249.html)
  - [ubuntu system cmds](https://jasminmin.com/2019-05-03-ubuntu-commands/)
+ - [pipes and filters](https://swcarpentry.github.io/shell-novice/04-pipefilter)
 ### tar 
 1. tar zcvf \<file_name\>.tar.gz -C \<execute_path\> \<dir_name\> 
    (tar:打包, gz:壓縮, 將\<execute_path\>/\<dir_name\> 壓縮在 file 裡，以後解壓縮直接是 \<dir_name\> 不會變成是絕對路徑)

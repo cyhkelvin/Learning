@@ -1,19 +1,22 @@
 # career development
  from programming to coding and then to software development
  add on some tips for interview and other interesting topics [ref](https://www.freecodecamp.org/news/programming-coding-developement-whats-the-difference/)
- - [algorithm and data structure](#algorithm-and-data-structure-程式語言)
+ - [programming concepts](#algorithm-and-data-structure-程式語言)
  - [design concepts](#design-concepts-程式設計)
  - [develop concepts](#development-concepts-程式開發)
  - [interview practice](#interview-practice面試練習)
  - [other topics](#other-topics)
 
-## algorithm and data structure (程式語言)
+## programming concepts (程式語言)
  - algorithm [ref](https://github.com/tayllan/awesome-algorithms)
     從 ref 裡面用 python 來實作演算法，另外我會配合演算法去挑 leetcode 上的題目做練習
  - data structure [ref-IT邦30天課程](https://ithelp.ithome.com.tw/m/users/20129841/ironman/3300?sc=iThelpR)
     用這個內容，要找 python 常用的來學實作，其他參考就好(因為類似 linked list 等等其實在 系統上很重要但在 python 卻少用)
  - 程式碼入門學習基本學習路徑 [ref-IT邦30天課程](https://ithelp.ithome.com.tw/users/20091326/ironman/854)
     這個是給你們看的，一般大學開課學任何一門程式語言都是按照類似的課程大綱在學一個程式碼的，但是對我們立刻要用會有些不匹配，但很適合參考。
+ - protocols
+    - [mqtt](https://www.runoob.com/w3cnote/mqtt-intro.html)
+
 
 ## design concepts (程式設計)
  - 設計思維 [design pattern learning](https://ithelp.ithome.com.tw/articles/10201706) 每周看2~3篇
@@ -26,12 +29,26 @@
 
 ## development concepts (程式開發)
  - cicd
+ - 架構師的訓練 [安德魯的部落格](https://columns.chicken-house.net/2021/03/01/practice-01/)
+ - job positions
+    - devops
+    - sre(site reliability engineer) 
 
 ## interview practice(面試練習)
-工程師類型與自學平台等
+### 工程師類型與發展方向
  - 職位分工 [ref](https://blog.v123582.tw/2020/10/31/%E7%9C%9F%E3%83%BB%E8%B3%87%E6%96%99%E5%9C%98%E9%9A%8A%E8%88%87%E5%88%86%E5%B7%A5/?utm_source=Facebook_PicSee&fbclid=IwAR3Un4acXEg-X1x_PtyePP2RLHZquxckRQlrsqpMflRJxsrVknLZ-4DRInA)
+   - routine of data works
+      ![image1](https://github.com/cyhkelvin/Learning/tree/main/resources/development.png)
+   - abilities of each position
+      ![image2](https://github.com/cyhkelvin/Learning/tree/main/resources/data_job_positions.jpg)
+   - Dilemma
+      ![image3](https://github.com/cyhkelvin/Learning/tree/main/resources/data_job_dilemma.png)
+   - work division
+      ![image4](https://github.com/cyhkelvin/Learning/tree/main/resources/data_word_division.png)
 
-##other topics
+### 自學平台
+
+## other topics
 
 ### coding tools
  - vscode [vscode extension] (https://ithelp.ithome.com.tw/2020-12th-ironman/articles/3815?sc=iThomeR)
