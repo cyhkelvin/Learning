@@ -3,7 +3,6 @@ learning notes
 
 ## references notes
  - https://hackmd.io/2GiqvBEWTk6JfI3L4HrKUA
- - https://hackmd.io/LgD11HH6S32nW5-UZMonQw
 
 ## resources
  - [mockinterview interviewBit](https://www.interviewbit.com/mock-interview/)

@@ -38,13 +38,13 @@
 ### 工程師類型與發展方向
  - 職位分工 [ref](https://blog.v123582.tw/2020/10/31/%E7%9C%9F%E3%83%BB%E8%B3%87%E6%96%99%E5%9C%98%E9%9A%8A%E8%88%87%E5%88%86%E5%B7%A5/?utm_source=Facebook_PicSee&fbclid=IwAR3Un4acXEg-X1x_PtyePP2RLHZquxckRQlrsqpMflRJxsrVknLZ-4DRInA)
    - routine of data works
-      ![image1](https://github.com/cyhkelvin/Learning/tree/main/resources/development.png)
+      ![image1](https://github.com/cyhkelvin/Learning/blob/main/resources/development.png)
    - abilities of each position
-      ![image2](https://github.com/cyhkelvin/Learning/tree/main/resources/data_job_positions.jpg)
+      ![image2](https://github.com/cyhkelvin/Learning/blob/main/resources/data_job_positions.jpg)
    - Dilemma
-      ![image3](https://github.com/cyhkelvin/Learning/tree/main/resources/data_job_dilemma.png)
+      ![image3](https://github.com/cyhkelvin/Learning/blob/main/resources/data_job_dilemma.png)
    - work division
-      ![image4](https://github.com/cyhkelvin/Learning/tree/main/resources/data_word_division.png)
+      ![image4](https://github.com/cyhkelvin/Learning/blob/main/resources/data_word_division.png)
 
 ### 自學平台
 
