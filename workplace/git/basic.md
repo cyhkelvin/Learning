@@ -56,6 +56,23 @@
 ### submodule
  - [reference](https://blog.wu-boy.com/2011/09/introduction-to-git-submodule/)
  - [reference](http://jhjguxin.github.io/blog/2012/04/19/git-submodule-de-ren-shi-yu-zheng-que-shi-yong-!/)
+ - initial
+    1. e.g. `git submodule add https://github.com/cyhkelvin/leetcode.git interview_practice`
+    * 不用預先建立 leetcode 資料夾，他會直接將 repository 建立為 leetcode 資料夾
+    2. `git status` 會看到多了 `.gitmodules`, `career_development/interview_practice/leetcode`
+    3. commit & push 後 github 上就會有連結了
+    4. 本地端再使用 `git submodule init` 來讓 git 完成 submodule 初始化
+ - update
+    1. move to submodule dir and git pull
+    2. move back to main module and git commit, git push
+ - remove
+    1. `git rm -cached <path>`
+    2. `git rm <path>`
+    3. modified `.gitmodule` remove submodule
+    4. modified `.git/config` remove url
+    5. `git submodule sync`
+ - status
+    `git submodule status`
 ### filter-branch
  - [reference](https://www.itread01.com/content/1541997604.html)
 ### compare reset, rebase, revert
