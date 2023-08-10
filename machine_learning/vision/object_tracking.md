@@ -6,15 +6,22 @@
   - CVPR 2022 [論文推薦](https://cloud.tencent.com/developer/article/2020116)
 
 ### track-by-detect vs end-to-end
-  - track-by-detect 基礎算法 [reference](https://zhuanlan.zhihu.com/p/628015159)
+  - track-by-detect (multi-object) 基礎算法 [reference](https://zhuanlan.zhihu.com/p/628015159)
     - Euclidean distance tracking
     - SORT
     - DeepSORT
     - ByteTrack
   - end-to-end 模型範例
-    - mixFormer(2022)
-    - RTS(ECCV2022)
-    - keeptrack(2021)
+    實際上的想法就是輸入一個偵測圖(全圖)和一個搜尋圖(追蹤目標)
+    透過模型在全景的物件偵測中進行attention找出符合追蹤目標的局部
+    透過localization head 找出追蹤目標輸出
+    - mixFormer(2022) [github](https://github.com/MCG-NJU/MixFormer)
+      - 實作架構概念: a backbone composed of iterative target-search MAMs, and a simple localization head to produce the target bounding box.
+      - 測試了fully convolution corner head 較 query-based head 效果更好
+      - 更新多代還未理解差異: MixFormer(基礎)->MixRGBD->MixForD->MixVit-L(pretrained ConvMAE backbone called TrackMAE)
+      - paper [mixFormer](https://arxiv.org/pdf/2203.11082.pdf) -->
+        [mixVit-convMAE(更新版)](https://arxiv.org/pdf/2302.02814.pdf)
+    - ARTrcak [github](https://github.com/miv-xjtu/artrack)
 ### multi/single object tracking
   - multi object tracking [reference](https://peaceful0907.medium.com/%E5%88%9D%E6%8E%A2%E7%89%A9%E4%BB%B6%E8%BF%BD%E8%B9%A4-multiple-object-tracking-mot-4f1b42e959f9)
   - single object tracking [paper](https://arxiv.org/ftp/arxiv/papers/2201/2201.13066.pdf)
