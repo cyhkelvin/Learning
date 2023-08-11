@@ -71,3 +71,18 @@
     - accuracy(AOR)/robustness(定義追蹤失敗)
     - EFO(equivalent filter operations) 衡量追蹤速度
     - EAO(expected average overlap) 影片時序長度為橫軸，準確率為縱軸
+## AVisT : A Benchmark for Visual Object Tracking in Adverse Visibility
+  - [paper](https://bmvc2022.mpi-inf.mpg.de/0817.pdf)
+  - [google drive](https://drive.google.com/drive/folders/1rlwTP91a3GYobOoIE9sprFxISE5v8d90)
+  - 各種特殊場景/物件:
+    - weather condition: 雨/雪/霧/沙暴/颶風/龍捲風
+    - obstruction effects: 遮擋/光照/水噴濺/煙霧/火 
+    - imaging effects: 低光/壓縮畫質
+    - target effects: 快速移動/小目標/相似物體(distractor)/形變
+    - camouflage: 與背景相似色
+  - 120個影片
+## TrackingNet
+  - [paper](https://arxiv.org/pdf/1803.10794.pdf)
+  - 由 youtube 來的，30364個影片(平均16.6s)
+  - 資料及備份 google drive [link1](https://drive.google.com/drive/u/2/folders/1gJOR-r-jPFFFCzKKlMOW80WFtuaMiaf6)、[link2](https://drive.google.com/drive/u/2/folders/1xrxlI6otQvWlRJjsX1pddZBY9h2WbmVi)
+  - github 取得: [link](https://github.com/SilvioGiancola/TrackingNet-devkit)
