@@ -22,9 +22,25 @@
       - paper [mixFormer](https://arxiv.org/pdf/2203.11082.pdf) -->
         [mixVit-convMAE(更新版)](https://arxiv.org/pdf/2302.02814.pdf)
     - ARTrcak [github](https://github.com/miv-xjtu/artrack)
-### multi/single object tracking
+      - attention-based mechanism with encoder/recoder architecture
+      - pretrained with facebook [mae architecture](https://github.com/facebookresearch/mae)
+      - [paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Wei_Autoregressive_Visual_Tracking_CVPR_2023_paper.pdf)
+### multi-object tracking vs visual object tracking
   - multi object tracking [reference](https://peaceful0907.medium.com/%E5%88%9D%E6%8E%A2%E7%89%A9%E4%BB%B6%E8%BF%BD%E8%B9%A4-multiple-object-tracking-mot-4f1b42e959f9)
+  - visual object tracking (參考 ARTrack 論文)
+    - 主要架構是做 template和 search image(object)的配對
+    - Core通常使用integration module 來進行特徵融合
+       - 方法[1] 後面會接一個模型去更新template隨時序的變化(通常需要另外訓練)，加入hamming window penalty、box optimization等後修正
+       - 方法[2] 加入動作資訊判斷模型(以前多用在多物件追蹤)
+    - 最後透過簡單結構進行template與target的比對
   - single object tracking [paper](https://arxiv.org/ftp/arxiv/papers/2201/2201.13066.pdf)
+    
+### Transformer in visual tracking:
+  - TransT: 用attention機制去做feature fusion與長距離相似特徵關聯
+  - MixFormer: 用attention去融合target, template資訊
+  - OSTrack: 做一個候選target估算，去判斷不需要進行追蹤的範圍
+  - ARTracker: 以attention機制為基礎，透過encoder去取得target的時序/空間特徵token，再由decoder結合template取得結果
+
 
 ## datasets
   - paper with code [resources](https://paperswithcode.com/datasets?task=object-tracking)
