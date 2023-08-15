@@ -1,14 +1,12 @@
-# conda
+# windows wsl
 
-## common usage
- - `conda env reate -f <config file>`
- - `conda create -n "myenv" python=3.3.0`
- - `conda remove -n myenv --all`
- - `conda activate`, `conda deactivate`
- - `conda update conda`, `conda upate -n base conda`
+## path 
+  - [reference](https://www.cnblogs.com/lepeCoder/p/wsl_dir.html)
+  - `C:\Users\<UserName>\AppData\Local\Packages\CanonicalGroupLimited.Ubuntu18.04onWindows_79rhkp1fndgsc\LocalState\rootfs`
+  - `\\wsl$` can manipulate directory
 
-## anaconda
 
+## notes
 ### steps to install anaconda on Windows Ubuntu Terminal
 - If you have already install an old version, Run `$ bash Anaconda[YOUR VERSION].sh -u` to update version from previous one in step 5.
 - [reference](https://gist.github.com/kauffmanes/5e74916617f9993bc3479f401dfec7da)
