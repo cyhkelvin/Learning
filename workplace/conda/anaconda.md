@@ -3,6 +3,8 @@
 ## common usage
  - `conda env reate -f <config file>`
  - `conda create -n "myenv" python=3.3.0`
+ - `conda remove -n myenv --all`
+ - `conda activate`, `conda deactivate`
 
 ## anaconda
 
