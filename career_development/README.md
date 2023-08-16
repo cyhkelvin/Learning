@@ -33,6 +33,8 @@
  - job positions
     - devops
     - sre(site reliability engineer) 
+ - ai swe roadmap
+    - https://github.com/AMAI-GmbH/AI-Expert-Roadmap
 
 ## interview practice(面試練習)
 ### 工程師類型與發展方向
