@@ -7,10 +7,25 @@
 
 ### track-by-detect vs end-to-end
   - track-by-detect (multi-object) 基礎算法 [reference](https://zhuanlan.zhihu.com/p/628015159)
-    - Euclidean distance tracking
-    - SORT
-    - DeepSORT
-    - ByteTrack
+    - algorithms
+      - Euclidean distance tracking
+      - SORT
+      - DeepSORT
+      - ByteTrack
+    - issues: 
+      - [reference](https://pedin024.medium.com/fairmot-a-simple-baseline-for-multi-object-tracking-%E8%AB%96%E6%96%87%E7%AD%86%E8%A8%98-f80692d1ba3d)
+      - [reference paper FairMOT](https://arxiv.org/pdf/2004.01888.pdf)
+      1. anchor會導致目標物體的歧異性(ambiguity)，應改用anchor-free的方法
+      2. reID相較於object detection網路，需要更多層次的特徵融合
+      3. reID特徵維度不宜太高，因為MOT資料集通常很小
+      - object detection head branch
+        - Heatmap head：用來定位物體center。位於物體center時，該座標機率越高，越偏離center時機率指數遞減。
+        - Box size head：用來估計bbox高、寬，只與object detection有關。
+        - Center offset head：用來更準確定位物體center。雖然對object detection影像不大，但是對於reID結果的影響很大。
+      - identity embedding branch
+        - Heatmap Loss：先去計算每一點(x, y)是物體center的機率所組成的heatmap，再計算pixel-wise的focal loss
+        - Bbox Loss：由Offset和Size組成的L1 loss
+        - Identity Embedding Loss：將128為度的identity特徵計算softmax loss。p(k)是使用GT heatmap center的identity特徵E(x,y)，計算其屬於每一類的機率
   - end-to-end 模型範例
     實際上的想法就是輸入一個偵測圖(全圖)和一個搜尋圖(追蹤目標)
     透過模型在全景的物件偵測中進行attention找出符合追蹤目標的局部
