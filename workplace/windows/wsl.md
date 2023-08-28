@@ -21,3 +21,19 @@
 9. To test that it worked, run `$ which python`. It should print a path that has anaconda in it. Mine is `/home/kauff/anaconda3/bin/python`. If it doesn't have anaconda in the path, do the next step. Otherwise, move to step 11.
 10. Manually add the Anaconda bin folder to your PATH. To do this, I added "export PATH=/home/kauff/anaconda3/bin:$PATH" to the bottom of my ~/.bashrc file. 
 11. To open jupyter, type `$ jupyter notebook --no-browser`. The no browser flag will still run Jupyter on port 8888, but it won't pop it open automatically. it's necessary since you don't have a browser (probably) in your subsystem. In the terminal, it will give you a link to paste into your browser. If it worked, you should see your notebooks!
+
+
+### release removed space in subsystem
+- [reference](https://zhuanlan.zhihu.com/p/358528257)
+- find vhd file of wsl, usually storage in `%PROFILE%\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\LocalState\`
+- open powershell and command
+  ``` bat
+    wsl --shutdown
+    diskpart
+    # open window Diskpart
+    select vdisk file="C:\WSL-Distros\…\ext4.vhdx"
+    attach vdisk readonly
+    compact vdisk
+    detach vdisk
+    exit
+  ```
