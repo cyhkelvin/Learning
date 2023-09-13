@@ -14,3 +14,4 @@
     •	http://burrsettles.com/pub/settles.activelearning.pdf 
     •	https://arxiv.org/pdf/2203.13450.pdf 
  - 陳天奇 (xgboost 開發者) [機器學習科研的十年](https://ppfocus.com/0/diae22f82.html)
+ - AI Expert Roadmap [github](https://i.am.ai/roadmap/#data-science-roadmap)
