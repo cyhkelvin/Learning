@@ -17,3 +17,4 @@
  - deployment
     •	https://www.gushiciku.cn/dl/0Wses/zh-tw 
     comparison of NCNN/OpenVINO/TensorRT/MediaPipe and Introduction of ONNX
+ - AI Expert Roadmap [github](https://i.am.ai/roadmap/#data-science-roadmap)
