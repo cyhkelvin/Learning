@@ -66,6 +66,36 @@
 
 ### config, yaml, json, pkl, textgrid
  - configobj configparser (讀取 .ini)
+### collections
+ - reference: [容器資料型態 collections](https://steam.oxxostudio.tw/category/python/library/collections.html)
+ - namedtuple()
+    ```python
+      from collections import namedtuple
+
+      circle = namedtuple('Point', ['x', 'y', 'r'])
+      c = circle(10,20,50)
+
+      print(c)                 # Point(x=10, y=20, r=50)
+      print(c.x, c.y, c.r)     # 10 20 50
+      print(c[0], c[1], c[2])  # 10 20 50
+    ```
+ - OrderedDict
+    ```python
+      from collections import OrderedDict
+      a = OrderedDict()
+      a['x'] = 1
+      a['y'] = 2
+      print(a)    # OrderedDict([('x', 1), ('y', 2)])
+    ```
+ - defaultdict
+    ```python
+      from collections import defaultdict
+      a = defaultdict(lambda: 0)
+      for i in 'test':
+          a[i] += 1
+      print(a)  # defaultdict(<function <lambda> at 0x00000279A0ED6DD0>, {'t': 2, 'e': 1, 's': 1})
+      print(a['b'])  # 0
+    ```
 ### pandas, numpy
  - pandas
     - [indexing and selecting data](https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#different-choices-for-indexing)
