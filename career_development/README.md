@@ -27,27 +27,8 @@
     - 軟體工程/敏捷開發/clean code [ref1](https://towardsdatascience.com/python-clean-code-6-best-practices-to-make-your-python-functions-more-readable-7ea4c6171d60) [ref2](https://www.learncodewithmike.com/2020/02/python-beautifulsoup-web-scraper.html)
  - 網路架構 (這部分我最不熟，目前還在思考怎麼辦，應該會去找個相關的 blog 但是我無法判斷到底適不適合我們...)
 
-## development concepts (程式開發)
- - cicd
- - 架構師的訓練 [安德魯的部落格](https://columns.chicken-house.net/2021/03/01/practice-01/)
- - job positions
-    - devops
-    - sre(site reliability engineer) 
- - ai swe roadmap
-    - https://github.com/AMAI-GmbH/AI-Expert-Roadmap
-
 ## interview practice(面試練習)
-### 工程師類型與發展方向
- - 職位分工 [ref](https://blog.v123582.tw/2020/10/31/%E7%9C%9F%E3%83%BB%E8%B3%87%E6%96%99%E5%9C%98%E9%9A%8A%E8%88%87%E5%88%86%E5%B7%A5/?utm_source=Facebook_PicSee&fbclid=IwAR3Un4acXEg-X1x_PtyePP2RLHZquxckRQlrsqpMflRJxsrVknLZ-4DRInA)
-   - routine of data works
-      ![image1](https://github.com/cyhkelvin/Learning/blob/main/resources/development.png)
-   - abilities of each position
-      ![image2](https://github.com/cyhkelvin/Learning/blob/main/resources/data_job_positions.jpg)
-   - Dilemma
-      ![image3](https://github.com/cyhkelvin/Learning/blob/main/resources/data_job_dilemma.png)
-   - work division
-      ![image4](https://github.com/cyhkelvin/Learning/blob/main/resources/data_word_division.png)
- - 職缺薪資
+### 職缺薪資
    - [levels.fyi](https://www.levels.fyi/t/software-engineer/locations/taiwan)
 ### 自學平台
  mockinterview, hackerrank, leetcode, ...
