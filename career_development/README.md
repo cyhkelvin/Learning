@@ -35,6 +35,13 @@
 
 ## other topics
 
+## job finding
+  - linkedin of course
+  - trueup.io: all place, more jobs of software engineer than others
+  - remotive.io:  USA, UK, Canada, Germany, France
+  - weworkremotely.com: front-/back- end, full stack at USA, Europe, Anywhere
+  - themuse.com: mostly from america
+
 ### coding tools
  - vscode [vscode extension] (https://ithelp.ithome.com.tw/2020-12th-ironman/articles/3815?sc=iThomeR)
  - jupyterhub、jupyterlab、jupyternotebook
